@@ -5,7 +5,7 @@ Please do not judge the front end. It's just a proof of concept. It is ugly.
 
 The user will input their campaign details. They will generate the clickthrough URL and use it in their campaigns. 
 
-![UE](https://github.com/walexbarnes/classifications-api-web-app/main/user_experience.png)
+![UE](https://github.com/walexbarnes/classifications-api-web-app/blob/main/user_experience.png)
 
 When they click submit to Adobe Analytics, it is sent off for processing **via Adobe Analytics 1.4 Classifications API**. 
 
