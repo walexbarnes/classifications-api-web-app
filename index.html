@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="unsafe-url" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Bubblewrap</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" async></script>
+    <script src="https://assets.adobedtm.com/43e08a8c9425/f79954f4ca2a/launch-c822922a03ba-development.min.js"
+        async></script>
+</head>
+
+<body>
+    <main>
+        <h1>Project Bubblewrap</h1>
+
+        <div class="builder step-1">
+            <h2>Step 1</h2>
+
+            <form id="step-1">
+                <label for="url">URL
+                    <input type="text" class="input-field" id="url" name="url" value="url">
+                </label>
+                <br />
+
+                <label for="creative-name">Creative Name
+                    <input type="text" class="input-field" id="creative-name" name="creative-name"
+                        value="creative-name">
+                </label>
+                <br />
+
+                <label for="campaign">Campaign
+                    <input type="text" class="input-field" id="campaign" name="campaign" value="campaign">
+                </label>
+                <br />
+
+                <label for="channel">Channel<br />
+                    <input type="checkbox" id="youtube" name="youtube" value="youtube">
+                    <label for="youtube">YouTube</label><br>
+                    <input type="checkbox" id="ooh" name="ooh" value="ooh">
+                    <label for="ooh">OOH</label><br>
+                    <input type="checkbox" id="display" name="display" value="display">
+                    <label for="display">Display</label><br>
+                </label>
+
+                <label>Creative Type
+                    <select id="creative-type" name="creative-type">
+                        <option value="photo">Photo</option>
+                        <option value="video">Video</option>
+                        <option value="audio">Audio</option>
+                        <option value="display">Display</option>
+                        <option value="static">Static</option>
+                    </select>
+                </label>
+            </form>
+
+            <div>
+                <button type="button" class="submit">Submit</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="builder step-2">
+            <h2>Step 2</h2>
+
+            <div class="url-results">
+                <textarea readonly></textarea>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="builder step-3">
+            <h2>Step 3</h2>
+
+            <div>
+                <button id="api-submit" type="button">Send to Adobe Analytics</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="builder step-4">
+            <h2>Step 4 - END STATE</h2>
+
+            <div class="end-results">
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
